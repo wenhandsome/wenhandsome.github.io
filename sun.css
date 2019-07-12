@@ -1,0 +1,127 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.sun{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #FF0000;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	position:absolute;
+}
+.shuixing{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #999;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	animation: rotate 2s linear 0s infinite normal;
+}
+.shuixing>span{
+	width: 20px;
+	height: 20px;
+	background-color: #C6E2FF;
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: -10px;
+}
+.jinxing{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #999;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	animation: rotate 3s linear 0s infinite normal;
+
+}
+.jinxing>span{
+	width: 26px;
+	height: 26px;
+	background-color: #EEEE00;
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: -13px;
+}
+.diqiu{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #999;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	animation: rotate 4s linear 0s infinite normal;
+
+}
+.diqiu>span{
+	width: 18px;
+	height: 18px;
+	background-color: #9F79EE;
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: -9px;
+}
+
+.diqiu>span>.yueqiu{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #999;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	animation: rotate 2s linear 0s infinite normal;
+}
+
+
+
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
